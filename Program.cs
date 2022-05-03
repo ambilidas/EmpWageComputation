@@ -9,7 +9,7 @@ namespace EmployeeWageComputation
             Console.WriteLine("Welcome to Employee Wage Computation");
             EmpWageComputation emp = new EmpWageComputation();
             emp.CheckEmpIsPresentOrNot();
-        }
+            emp.CalcEmpDailyWage();        }
     }
 }
 
